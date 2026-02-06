@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/images/snp-logo-img.png" type="image/x-icon">
     <title>Snp Main</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
@@ -13,11 +14,12 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Cabin+Condensed:wght@400;500;600;700&family=Dosis:wght@200..800&family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Lobster&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Parisienne&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div class="one">
+    <div class="one container-fluid">
         <div><img class="two" src="./images/Salt-n-Pepper.webp" alt=""></div>
         <div class="three">
             <span class="four">Home</span>
@@ -27,23 +29,48 @@
             <span class="six">Order Online<i class="fa-solid fa-arrow-right seven"></i></span>
         </div>
     </div>
-    <img class="eight" src="./images/screen-image.webp" alt="">
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./images/new-img-1.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./images/new-img-2.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./images/new-img-3.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./images/new-img-4.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./images/new-img-5.png" class="d-block w-100" alt="...">
+            </div>
+        </div>
+    </div>
     <div class="nine">
         <h1 class="nine0">Welcome to Salt'n Pepper<br>Restaurants! Our Brands</h1>
     </div>
     <p class="nine1">Please click our brands below for further information, reservations or to order online!</p>
     <div class="nine2">
-        <img class="nine3" src="./images/img-no-1.webp" alt="">
-        <img class="nine3" src="./images/img-no-2.webp" alt="">
-        <img class="nine3" src="./images/img-no-3.webp" alt="">
-        <img class="nine3" src="./images/img-no-4.webp" alt="">
+        <div class="nine4">
+            <img class="nine3" src="./images/img-no-1.webp" alt="">
+            <button class="nine5">Order Now</button>
+        </div>
+        <div class="nine4">
+            <img class="nine3" src="./images/img-no-2.webp" alt="">
+            <button class="nine5">Order Now</button>
+        </div>
+        <div class="nine4">
+            <img class="nine3" src="./images/img-no-3.webp" alt="">
+            <button class="nine6">Reserve a Table</button>
+        </div>
+        <div class="nines4">
+            <img class="nine3" src="./images/img-no-4.webp" alt="">
+            <button class="nine5">Order Now</button>
+        </div>
     </div>
-    <div class="nine4">
-        <div class="nine5">Order Now</div>
-        <div class="nine5">Order Now</div>
-        <div class="nine6">Reserve a Table</div>
-        <div class="nine5">Order Now</div>
-    </div>
+
     <div class="nine7">
         <h1 class="nine8">Salt'n Pepper<br>Restaurant Franchises</h1>
     </div>
@@ -58,10 +85,10 @@
             <p class="nine16"><i class="fa-solid fa-phone seven4"></i>Ph: 051-2604904-6</p>
             <button class="nine17">Get Directions<i class="fa-solid fa-arrow-right seven1"></i></button>
         </div>
-        <div class="nine12"><img src="./images/img-no-14.webp" alt=""></div>
+        <div class="nine12"><img class="ten4" src="./images/img-no-14.webp" alt=""></div>
     </div>
     <div class="nine10">
-        <div class="nine12"><img src="./images/img-no-6.webp" alt=""></div>
+        <div class="nine12"><img class="ten4" src="./images/img-no-6.webp" alt=""></div>
         <div class="nine11">
             <p class="nine13">F A I S A L A B A D</p>
             <p class="nine14">Salt'n Pepper Restaurant</p>
@@ -79,18 +106,16 @@
             <p class="nine16"><i class="fa-solid fa-phone seven4"></i>Ph: 062-2740271-2</p>
             <button class="nine17">Get Directions<i class="fa-solid fa-arrow-right seven1"></i></button>
         </div>
-        <div class="nine12"><img src="./images/img-no-7.webp" alt=""></div>
+        <div class="nine12"><img class="ten4" src="./images/img-no-7.webp" alt=""></div>
     </div>
     <div class="nine18">
         <h1 class="nine8">Salt'n Pepper<br>Express Franchises</h1>
     </div>
-    <div class="nine19">
-        <img src="./images/img-no-8.webp" alt="">
-        <img src="./images/img-no-9.webp" alt="">
-        <img src="./images/img-no-10.webp" alt="">
-    </div>
     <div class="nine20">
         <div class="nine21">
+            <div class="nine19">
+                <img src="./images/img-no-8.webp" alt="">
+            </div>
             <p class="nine22">S A R G O D H A</p>
             <p class="nine23">Salt'n Pepper Express</p>
             <p class="nine24"><i class="fa-solid fa-location-dot"></i>Opposite Sargodha Arts Council Babar Road</p>
@@ -98,6 +123,9 @@
             <button class="nine27">Get Directions<i class="fa-solid fa-arrow-up seven2"></i></button>
         </div>
         <div class="nine21">
+            <div class="nine19">
+                <img src="./images/img-no-9.webp" alt="">
+            </div>
             <p class="nine22">J H E L U M</p>
             <p class="nine23">Salt'n Pepper Express</p>
             <p class="nine24"><i class="fa-solid fa-location-dot"></i>Opposite Dancing Fountain Gallery 2 Citi Housing
@@ -106,6 +134,9 @@
             <button class="nine27">Get Directions<i class="fa-solid fa-arrow-up seven2"></i></button>
         </div>
         <div class="nine21">
+            <div class="nine19">
+                <img src="./images/img-no-10.webp" alt="">
+            </div>
             <p class="nine22">F A I S A L <span class="seven6">T O W N</span></p>
             <p class="nine23">Salt'n Pepper Express</p>
             <p class="nine24"><i class="fa-solid fa-location-dot"></i>34-C Abul Hassan Isfahani Rd, Faisal Town,Lahore
@@ -114,13 +145,11 @@
             <button class="nine27">Get Directions<i class="fa-solid fa-arrow-up seven2"></i></button>
         </div>
     </div>
-    <div class="nine19">
-        <img src="./images/img-no-11.webp" alt="">
-        <img src="./images/img-no-12.webp" alt="">
-        <img src="./images/img-no-13.webp" alt="">
-    </div>
     <div class="nine20">
         <div class="nine21">
+            <div class="nine19">
+                <img src="./images/img-no-11.webp" alt="">
+            </div>
             <p class="nine22">D H A</p>
             <p class="nine23">Salt'n Pepper Express</p>
             <p class="nine24"><i class="fa-solid fa-location-dot"></i>93-Y Phase III, DHA,Lahore</p>
@@ -128,6 +157,9 @@
             <button class="nine27">Get Directions<i class="fa-solid fa-arrow-up seven2"></i></button>
         </div>
         <div class="nine21">
+            <div class="nine19">
+                <img src="./images/img-no-12.webp" alt="">
+            </div>
             <p class="nine22">B A H R I A <span class="seven6">T O W N</span></p>
             <p class="nine23">Salt'n Pepper Express</p>
             <p class="nine24"><i class="fa-solid fa-location-dot"></i>Arwa Heights Building 19 Nishtar Block, Sector E,
@@ -136,6 +168,9 @@
             <button class="nine27">Get Directions<i class="fa-solid fa-arrow-up seven2"></i></button>
         </div>
         <div class="nine21">
+            <div class="nine19">
+                <img src="./images/img-no-13.webp" alt="">
+            </div>
             <p class="nine22">G U J A R <span class="seven6">K H A N</span></p>
             <p class="nine23">Salt'n Pepper Express</p>
             <p class="nine24"><i class="fa-solid fa-location-dot"></i>New Metro City Gujar Khan</p>
@@ -143,13 +178,11 @@
             <button class="nine27">Get Directions<i class="fa-solid fa-arrow-up seven2"></i></button>
         </div>
     </div>
-    <div class="nine19">
-        <img class="nine28" src="./images/img-no-15.webp" alt="">
-        <img class="nine28" src="./images/img-no-16.webp" alt="">
-        <img class="nine28" src="./images/img-no-17.webp" alt="">
-    </div>
     <div class="nine20">
         <div class="nine21">
+            <div class="nine19">
+                <img class="nine28" src="./images/img-no-15.webp" alt="">
+            </div>
             <p class="nine22">L A H O R E</p>
             <p class="nine23">Salt'n Pepper Express</p>
             <p class="nine24"><i class="fa-solid fa-location-dot"></i>Shop no.5, Arcade Block, Fortress Stadium, Lahore
@@ -158,6 +191,9 @@
             <button class="nine27">Get Directions<i class="fa-solid fa-arrow-up seven2"></i></button>
         </div>
         <div class="nine21">
+            <div class="nine19">
+                <img class="nine28" src="./images/img-no-16.webp" alt="">
+            </div>
             <p class="nine22">G U J R A T</p>
             <p class="nine23">Salt'n Pepper Express</p>
             <p class="nine24"><i class="fa-solid fa-location-dot"></i>Service Mor, Gujrat</p>
@@ -165,6 +201,9 @@
             <button class="nine27">Get Directions<i class="fa-solid fa-arrow-up seven2"></i></button>
         </div>
         <div class="nine21">
+            <div class="nine19">
+                <img class="nine28" src="./images/img-no-17.webp" alt="">
+            </div>
             <p class="nine22">S A H I W A L</p>
             <p class="nine23">Salt'n Pepper Express</p>
             <p class="nine24"><i class="fa-solid fa-location-dot"></i>Opposite Main Gate Police Line, Sahiwal</p>
@@ -172,11 +211,11 @@
             <button class="nine27">Get Directions<i class="fa-solid fa-arrow-up seven2"></i></button>
         </div>
     </div>
-    <div class="nine19">
-        <img class="nine30" src="./images/img-no-18.webp" alt="">
-    </div>
-    <div class="nine20">
+    <div class="grab">
         <div class="nine29">
+            <div class="adjust">
+                <img class="nine30" src="./images/img-no-18.webp" alt="">
+            </div>
             <p class="nine22">B U R E W A L A</p>
             <p class="nine23">Salt'n Pepper Express</p>
             <p class="nine24"><i class="fa-solid fa-location-dot"></i>The Empire Mall, Canal Road, Burewala</p>
@@ -238,8 +277,11 @@
     </div>
     <div class="eleven">
         <div class="eleven1">
-            <img class="eleven5" src="./images/img-no-1.webp" alt="">
-            <p class="eleven6">The Salt’n Pepper Restaurants are an example of gracious dinning, outstanding service, extraordinary classic and contemporary cuisine. The restaurants have become the ultimate dinning destinations in Lahore. From family occasions to business dinner<br>and moments of the heart, this place is where<br>unforgettable memories are made.</p>
+            <img class="eleven5" src="./images/Salt-n-Pepper.webp" alt="">
+            <p class="eleven6">The Salt’n Pepper Restaurants are an example of gracious dinning, outstanding service,
+                extraordinary classic and contemporary cuisine. The restaurants have become the ultimate dinning
+                destinations in Lahore. From family occasions to business dinner<br>and moments of the heart, this place
+                is where<br>unforgettable memories are made.</p>
             <p class="eleven7">Terms & conditions Privacy policy</p>
         </div>
         <div class="eleven2">
@@ -266,17 +308,24 @@
         </div>
         <div class="eleven4">
             <p class="eleven8">Follow Us</p>
-            <i class="fa-brands fa-facebook-f eleven13"></i>
-            <i class="fa-brands fa-instagram eleven14"></i>
-            <i class="fa-brands fa-twitter eleven14"></i><br>
-            <button class="twelve1"><i class="fa-brands fa-apple eleven15"></i><span class="eleven17">Download on the</span><br><p class="twelve3">App Store</p></button><br>
-            <button class="twelve2"><i class="fa-brands fa-google-play eleven16"></i><span class="eleven18">GET IT ON</span><br><p class="twelve4">Google Play</p></button>
+            <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook-f eleven13"></i></a>
+            <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram eleven14"></i></a>
+            <a href="https://twitter.com" target="_blank"><i class="fa-brands fa-twitter eleven14"></i></a><br>
+            <div class="zero">
+                <button class="twelve1"><i class="fa-brands fa-apple eleven15"></i>
+                    <p class="twelve3">App Store</p>
+                </button><br>
+                <button class="twelve2"><i class="fa-brands fa-google-play eleven16"></i>
+                    <p class="twelve4">Google Play</p>
+                </button>
+            </div>
         </div>
     </div>
     <div class="twelve5">
         <div>© 2025 Snp Main</div>
         <div>Powered by tossdown.com</div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

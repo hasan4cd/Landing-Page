@@ -1,0 +1,2399 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.one {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 90px;
+    background-color: black;
+    color: white;
+}
+
+.two {
+    margin-left: 60px;
+    width: 170px;
+    height: 80px;
+    cursor: pointer;
+}
+
+.three {
+    margin-right: 50px;
+}
+
+.four {
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.five {
+    margin-right: 10px;
+    border: 1px solid white;
+    padding: 15px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.six {
+    margin-right: 20px;
+    border: 1px solid red;
+    background-color: red;
+    cursor: pointer;
+    padding: 16px 14px;
+    border-radius: 30px;
+}
+
+.seven {
+    color: red;
+    background-color: white;
+    margin-left: 10px;
+    border-radius: 50%;
+    padding: 2px 0px;
+    height: 20px;
+}
+
+.nine {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: white;
+    height: 180px;
+    text-align: center;
+}
+
+.nine0 {
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+.nine1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+    height: 10px;
+}
+
+.nine2 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    gap: 20px;
+    height: 280px;
+}
+
+.nine3 {
+    background-color: white;
+    border-radius: 5px;
+    padding: 30px 10px;
+    cursor: pointer;
+}
+
+.nine4 {
+    color: white;
+    height: 250px;
+    width: 280px;
+    text-align: center;
+}
+
+.nines4 {
+    color: white;
+    height: 250px;
+    width: 230px;
+    text-align: center;
+}
+
+.nine5 {
+    margin-top: 20px;
+    padding: 15px 50px;
+    border: 1px solid gray;
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+.nine6 {
+    margin-top: 20px;
+    padding: 15px 37px;
+    border: 1px solid gray;
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+.nine7 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: white;
+    height: 300px;
+}
+
+.nine8 {
+    font-weight: 300;
+    line-height: 1;
+    text-align: center;
+    font-size: 60px;
+    font-family: Playfair;
+    font-weight: 700;
+}
+
+.nine9 {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+    height: 1px;
+    text-align: center;
+}
+
+.nine10 {
+    margin-top: 43px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 18px;
+    height: 330px;
+}
+
+.nine11 {
+    height: 300px;
+    width: 550px;
+}
+
+.nine12 {
+    height: 300px;
+    width: 550px;
+}
+
+.nine13 {
+    color: red;
+    letter-spacing: 1.9px;
+}
+
+.nine14 {
+    color: white;
+    font-size: 32px;
+    margin-top: 10px;
+}
+
+.nine15 {
+    color: gray;
+    margin-top: 25px;
+}
+
+.nine16 {
+    color: gray;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.nine17 {
+    margin-top: 60px;
+    border: 1px solid gray;
+    color: white;
+    font-family: serif;
+    cursor: pointer;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: black;
+}
+
+.seven1 {
+    color: red;
+    background-color: white;
+    margin-left: 10px;
+    border-radius: 50%;
+    padding: 4px 4px 4px 4px;
+    height: 25px;
+    width: 25px;
+}
+
+.nine18 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: white;
+    height: 240px;
+}
+
+.nine32 {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: white;
+    height: 240px;
+}
+
+.nine19 {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 22px;
+    height: 260px;
+    margin-bottom: 15px;
+}
+
+.nine20 {
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 22px;
+    height: 550px;
+}
+
+.grab {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 22px;
+    height: 600px;
+}
+
+.adjust {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 22px;
+    height: 260px;
+    margin-bottom: 70px;
+}
+
+.nine21 {
+    width: 350px;
+    height: 250px;
+}
+
+.nine22 {
+    color: red;
+    letter-spacing: 2.2px;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.nine23 {
+    color: white;
+    font-size: 25px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.nine24 {
+    color: gray;
+    margin-top: 22px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.nine25 {
+    color: gray;
+    margin-top: 35px;
+    text-align: center;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.nine26 {
+    color: gray;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.nine27 {
+    margin-top: 50px;
+    border: 1px solid gray;
+    color: white;
+    font-family: serif;
+    cursor: pointer;
+    padding: 10px 30px;
+    border-radius: 30px;
+    margin-left: 90px;
+    display: flex;
+    align-items: center;
+    background-color: black;
+}
+
+.nine33 {
+    margin-top: 50px;
+    border: 1px solid gray;
+    color: white;
+    font-family: serif;
+    cursor: pointer;
+    padding: 10px 30px;
+    border-radius: 30px;
+    margin-left: 60px;
+    display: flex;
+    align-items: center;
+    background-color: black;
+}
+
+.seven2 {
+    color: red;
+    background-color: white;
+    margin-left: 10px;
+    border-radius: 50%;
+    transform: rotate(45deg);
+    height: 25px;
+    width: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nine28 {
+    height: 250px;
+    width: 350px;
+}
+
+.nine29 {
+    width: 300px;
+    height: 550px;
+    padding-top: 25px;
+    margin-bottom: 50px;
+}
+
+.nine30 {
+    margin-top: 50px;
+    height: 300px;
+    width: 350px;
+}
+
+.ten {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 370px;
+    gap: 20px;
+}
+
+.ten1 {
+    height: 370px;
+}
+
+.ten3 {
+    width: 600px;
+    height: 290px;
+    padding-top: 80px;
+}
+
+.ten4 {
+    width: 635px;
+    height: 370px;
+}
+
+.ten5 {
+    color: gray;
+    margin-top: 12px;
+    cursor: pointer;
+}
+
+.ten6 {
+    margin-top: 50px;
+    margin-left: 7px;
+    border: 1px solid limegreen;
+    color: white;
+    background-color: limegreen;
+    font-family: serif;
+    cursor: pointer;
+    padding: 10px 30px;
+    border-radius: 30px;
+    font-size: 15px;
+}
+
+.ten6:hover {
+    background-color: black;
+    cursor: pointer;
+}
+
+.seven3 {
+    color: limegreen;
+    background-color: white;
+    margin-left: 10px;
+    border-radius: 50%;
+    font-weight: 900;
+    padding: 6px 3px 0px;
+    height: 25px;
+    width: 25px;
+}
+
+.seven4 {
+    cursor: pointer;
+}
+
+.seven6 {
+    margin-left: 8px;
+}
+
+.ten7 {
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.ten8 {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    gap: 22px;
+}
+
+.ten9 {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    gap: 22px;
+}
+
+.ten10 {
+    width: 350px;
+    height: 230px;
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.ten11 {
+    margin-top: 25px;
+    margin-left: 150px;
+    font-size: 25px;
+    color: red;
+    background-color: gainsboro;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ten12 {
+    color: red;
+    font-size: 16px;
+    letter-spacing: 1.9px;
+    font-size: 9px;
+    margin-top: 20px;
+}
+
+.ten13 {
+    font-family: serif;
+    font-size: 23px;
+    margin-top: 15px;
+    line-height: 1.4;
+}
+
+.ten14 {
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.eleven {
+    margin-top: 150px;
+    margin-left: 62px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 25px;
+    height: 550px;
+}
+
+.eleven1 {
+    color: gray;
+    width: 390px;
+    height: 400px;
+}
+
+.eleven2 {
+    width: 180px;
+    height: 400px;
+}
+
+.eleven3 {
+    width: 250px;
+    height: 500px;
+}
+
+.eleven4 {
+    width: 200px;
+    height: 400px;
+}
+
+.eleven5 {
+    margin-top: 10px;
+    width: 150px;
+    height: 70px;
+    border-radius: 4px;
+}
+
+.eleven6 {
+    margin-top: 25px;
+    line-height: 1.3;
+}
+
+.eleven7 {
+    margin-top: 25px;
+}
+
+.eleven8 {
+    color: white;
+    font-family: serif;
+    font-size: 18px;
+}
+
+.eleven0 {
+    margin-top: 20px;
+    color: gray;
+}
+
+.eleven9 {
+    margin-top: 15px;
+    color: gray;
+}
+
+.eleven10 {
+    margin-top: 20px;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.eleven11 {
+    margin-top: 15px;
+    color: gray;
+}
+
+.eleven12 {
+    margin-top: 15px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.eleven13 {
+    color: white;
+    background-color: red;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    padding-top: 13px;
+    margin-top: 20px;
+}
+
+.eleven14 {
+    color: white;
+    background-color: red;
+    margin-left: 5px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    padding-top: 12px;
+    font-size: 17px;
+}
+
+.eleven15 {
+    color: white;
+    font-size: 25px;
+    margin-right: 0px;
+}
+
+.eleven16 {
+    color: aqua;
+    font-size: 25px;
+    margin-right: 0px;
+}
+
+.zero {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.twelve1 {
+    margin-top: 20px;
+    background-color: black;
+    height: 40px;
+    width: 170px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0px;
+    cursor: pointer;
+}
+
+.twelve2 {
+    background-color: black;
+    height: 40px;
+    width: 170px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0px;
+    cursor: pointer;
+}
+
+.eleven17 {
+    color: white;
+    font-size: 6px;
+}
+
+.eleven18 {
+    color: white;
+    font-size: 6px;
+}
+
+.twelve3 {
+    position: relative;
+    top: 8px;
+    right: 45px;
+}
+
+.twelve4 {
+    position: relative;
+    top: 8px;
+    right: 30px;
+}
+
+.twelve5 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    padding-left: 65px;
+    padding-right: 65px;
+    color: white;
+    font-weight: 600;
+}
+
+@media (min-width: 1414px) {
+    .ten4 {
+        width: 565px;
+        height: 300px;
+    }
+}
+
+@media (min-width: 1133px) and (max-width: 1413px) {
+    .ten4 {
+        width: 565px;
+        height: 330px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .ten {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        gap: 40px;
+        padding-bottom: 30px;
+    }
+
+    .ten3 {
+        width: 600px;
+        height: 290px;
+        padding-top: 0px;
+    }
+}
+
+@media (min-width: 1121px) and (max-width: 1132px) {
+    .nine2 {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        flex-wrap: wrap;
+        gap: 20px;
+        padding-top: 40px;
+        height: auto;
+    }
+
+    .ten4 {
+        width: 565px;
+        height: 300px;
+    }
+}
+
+@media (min-width: 1031px) and (max-width: 1120px) {
+    .nine2 {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        flex-wrap: wrap;
+        gap: 20px;
+        padding-top: 40px;
+        height: auto;
+    }
+
+    .nine10 {
+        margin-top: 43px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 18px;
+        height: auto;
+    }
+
+    .ten4 {
+        width: 565px;
+        height: 300px;
+    }
+}
+
+@media (min-width: 1031px) and (max-width: 1094px) {
+    .nine20 {
+        margin-top: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        gap: 22px;
+        height: 1130px;
+    }
+
+    .ten {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        height: auto;
+        gap: 0px;
+        padding-bottom: 30px;
+    }
+
+}
+
+@media (min-width: 951px) and (max-width: 1030px) {
+    .two {
+        margin-left: 40px;
+        width: 170px;
+        height: 80px;
+        cursor: pointer;
+    }
+
+    .three {
+        margin-right: 20px;
+    }
+
+    .nine2 {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        flex-wrap: wrap;
+        gap: 20px;
+        padding-top: 40px;
+        height: auto;
+    }
+
+    .nine10 {
+        margin-top: 43px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 18px;
+        height: auto;
+    }
+
+    .nine20 {
+        margin-top: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        gap: 22px;
+        height: 1130px;
+    }
+
+    .ten {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        height: auto;
+        gap: 0px;
+        padding-bottom: 30px;
+    }
+
+    .ten4 {
+        width: 565px;
+        height: 300px;
+    }
+
+    .ten8 {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        height: 500px;
+        gap: 22px;
+    }
+
+    .ten9 {
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        height: 500px;
+        gap: 22px;
+    }
+
+    .eleven {
+        margin-top: 110px;
+        margin-left: 22px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 25px;
+        height: 550px;
+    }
+}
+
+@media (min-width: 901px) and (max-width: 950px) {
+    .one {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        height: auto;
+        background-color: black;
+        color: white;
+        padding: 20px 0px;
+    }
+
+    .two {
+        margin-left: 0px;
+        width: 170px;
+        height: 80px;
+        cursor: pointer;
+    }
+
+    .three {
+        margin-right: 0px;
+        width: 98%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 45px;
+    }
+
+    .four {
+        margin-right: 10px;
+        cursor: pointer;
+    }
+
+    .five {
+        margin-right: 10px;
+        border: 1px solid white;
+        padding: 15px 25px;
+        border-radius: 30px;
+        cursor: pointer;
+    }
+
+    .six {
+        margin-right: 10px;
+        border: 1px solid red;
+        background-color: red;
+        cursor: pointer;
+        padding: 16px 25px;
+        border-radius: 30px;
+    }
+
+    .nine2 {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        flex-wrap: wrap;
+        gap: 20px;
+        padding-top: 40px;
+        height: auto;
+    }
+
+    .nine10 {
+        margin-top: 43px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 18px;
+        height: auto;
+    }
+
+    .nine20 {
+        margin-top: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        gap: 22px;
+        height: 1130px;
+    }
+
+    .ten {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        height: auto;
+        gap: 0px;
+        padding-bottom: 30px;
+    }
+
+    .ten4 {
+        width: 565px;
+        height: 300px;
+    }
+
+    .ten8 {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        height: 500px;
+        gap: 22px;
+    }
+
+    .ten9 {
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        height: 500px;
+        gap: 22px;
+    }
+
+    .eleven {
+        margin-top: 110px;
+        margin-left: 22px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        gap: 25px;
+        height: 820px;
+    }
+}
+
+@media (min-width:901px) and (max-width: 906px) {
+    .eleven {
+        margin-top: 110px;
+        margin-left: 22px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 25px;
+        height: 990px;
+    }
+}
+
+@media (min-width: 851px) and (max-width: 900px) {
+    .one {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        height: auto;
+        background-color: black;
+        color: white;
+        padding: 20px 0px;
+    }
+
+    .two {
+        margin-left: 0px;
+        width: 170px;
+        height: 80px;
+        cursor: pointer;
+    }
+
+    .three {
+        margin-right: 0px;
+        width: 98%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 45px;
+    }
+
+    .four {
+        margin-right: 10px;
+        cursor: pointer;
+    }
+
+    .five {
+        margin-right: 10px;
+        border: 1px solid white;
+        padding: 15px 25px;
+        border-radius: 30px;
+        cursor: pointer;
+    }
+
+    .six {
+        margin-right: 10px;
+        border: 1px solid red;
+        background-color: red;
+        cursor: pointer;
+        padding: 16px 25px;
+        border-radius: 30px;
+    }
+
+    .nine2 {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        flex-wrap: wrap;
+        gap: 20px;
+        padding-top: 40px;
+        height: auto;
+    }
+
+    .nine10 {
+        margin-top: 43px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 18px;
+        height: auto;
+    }
+
+    .nine20 {
+        margin-top: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        gap: 22px;
+        height: 1130px;
+    }
+
+    .ten {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        height: auto;
+        gap: 0px;
+        padding-bottom: 30px;
+    }
+
+    .ten4 {
+        width: 565px;
+        height: 300px;
+    }
+
+    .ten8 {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        height: 500px;
+        gap: 22px;
+    }
+
+    .ten9 {
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        height: 500px;
+        gap: 22px;
+    }
+
+    .eleven {
+        margin-top: 110px;
+        margin-left: 22px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        gap: 25px;
+        height: 990px;
+    }
+}
+
+@media (min-width: 801px) and (max-width: 850px) {
+    .one {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        height: auto;
+        background-color: black;
+        color: white;
+        padding: 20px 0px;
+    }
+
+    .two {
+        margin-left: 0px;
+        width: 170px;
+        height: 80px;
+        cursor: pointer;
+    }
+
+    .three {
+        margin-right: 0px;
+        width: 98%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .four {
+        margin-right: 10px;
+        cursor: pointer;
+    }
+
+    .five {
+        margin-right: 10px;
+        border: 1px solid white;
+        padding: 15px 25px;
+        border-radius: 30px;
+        cursor: pointer;
+    }
+
+    .six {
+        margin-right: 10px;
+        border: 1px solid red;
+        background-color: red;
+        cursor: pointer;
+        padding: 16px 25px;
+        border-radius: 30px;
+    }
+
+    .nine2 {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        flex-wrap: wrap;
+        gap: 20px;
+        padding-top: 40px;
+        height: auto;
+    }
+
+    .nine10 {
+        margin-top: 43px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 18px;
+        height: auto;
+    }
+
+    .nine20 {
+        margin-top: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        gap: 22px;
+        height: 1130px;
+    }
+
+    .ten {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        height: auto;
+        gap: 0px;
+        padding-bottom: 30px;
+    }
+
+    .ten4 {
+        width: 565px;
+        height: 300px;
+    }
+
+    .ten8 {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        height: 500px;
+        gap: 22px;
+    }
+
+    .ten9 {
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        height: 500px;
+        gap: 22px;
+    }
+
+    .eleven {
+        margin-top: 110px;
+        margin-left: 22px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        gap: 25px;
+        height: 990px;
+    }
+}
+
+@media (min-width: 751px) and (max-width: 800px) {
+    .one {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        height: auto;
+        background-color: black;
+        color: white;
+        padding: 20px 0px;
+    }
+
+    .two {
+        margin-left: 0px;
+        width: 170px;
+        height: 80px;
+        cursor: pointer;
+    }
+
+    .three {
+        margin-right: 0px;
+        width: 98%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 35px;
+    }
+
+    .four {
+        margin-right: 10px;
+        cursor: pointer;
+    }
+
+    .five {
+        margin-right: 10px;
+        border: 1px solid white;
+        padding: 15px;
+        border-radius: 30px;
+        cursor: pointer;
+    }
+
+    .six {
+        margin-right: 10px;
+        border: 1px solid red;
+        background-color: red;
+        cursor: pointer;
+        padding: 16px 14px;
+        border-radius: 30px;
+    }
+
+    .nine2 {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        flex-wrap: wrap;
+        gap: 20px;
+        padding-top: 40px;
+        height: auto;
+    }
+
+    .nine10 {
+        margin-top: 43px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 18px;
+        height: auto;
+    }
+
+    .nine20 {
+        margin-top: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        gap: 22px;
+        height: 1130px;
+    }
+
+    .ten {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        height: auto;
+        gap: 0px;
+        padding-bottom: 30px;
+    }
+
+    .ten4 {
+        width: 565px;
+        height: 300px;
+    }
+
+    .ten8 {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        height: 500px;
+        gap: 22px;
+    }
+
+    .ten9 {
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        height: 500px;
+        gap: 22px;
+    }
+
+    .eleven {
+        margin-top: 110px;
+        margin-left: 22px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        gap: 25px;
+        height: 990px;
+    }
+}
+
+@media (min-width: 701px) and (max-width: 750px) {
+    .one {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        height: auto;
+        background-color: black;
+        color: white;
+        padding: 20px 0px;
+    }
+
+    .two {
+        margin-left: 0px;
+        width: 170px;
+        height: 80px;
+        cursor: pointer;
+    }
+
+    .three {
+        margin-right: 0px;
+        width: 98%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+    }
+
+    .four {
+        margin-right: 10px;
+        cursor: pointer;
+    }
+
+    .five {
+        margin-right: 10px;
+        border: 1px solid white;
+        padding: 15px;
+        border-radius: 30px;
+        cursor: pointer;
+    }
+
+    .six {
+        margin-right: 10px;
+        border: 1px solid red;
+        background-color: red;
+        cursor: pointer;
+        padding: 16px 14px;
+        border-radius: 30px;
+    }
+
+    .nine2 {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        flex-wrap: wrap;
+        gap: 20px;
+        padding-top: 40px;
+        height: auto;
+    }
+
+    .nine7 {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        color: white;
+        height: 300px;
+    }
+
+    .nine8 {
+        font-weight: 300;
+        line-height: 1;
+        text-align: center;
+        font-size: 50px;
+        font-family: Playfair;
+        font-weight: 700;
+    }
+
+    .nine10 {
+        margin-top: 43px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 18px;
+        height: auto;
+    }
+
+    .nine20 {
+        margin-top: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        gap: 22px;
+        height: 1130px;
+    }
+
+    .ten {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        height: auto;
+        gap: 0px;
+        padding-bottom: 30px;
+    }
+
+    .ten4 {
+        width: 545px;
+        height: 300px;
+    }
+
+    .ten8 {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        height: 500px;
+        gap: 22px;
+    }
+
+    .ten9 {
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        height: 500px;
+        gap: 22px;
+    }
+
+    .eleven {
+        margin-top: 110px;
+        margin-left: 22px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        gap: 25px;
+        height: 990px;
+    }
+}
+
+@media (min-width: 701px) and (max-width: 737px) {
+    .nine20 {
+        margin-top: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        gap: 22px;
+        height: 1700px;
+    }
+
+    .ten8 {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        height: 500px;
+        gap: 22px;
+        height: 800px;
+    }
+
+    .ten9 {
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        height: 500px;
+        gap: 22px;
+        height: 800px;
+    }
+}
+
+@media (min-width: 651px) and (max-width: 700px) {
+    .one {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        height: auto;
+        background-color: black;
+        color: white;
+        padding: 20px 0px;
+    }
+
+    .two {
+        margin-left: 0px;
+        width: 170px;
+        height: 80px;
+        cursor: pointer;
+    }
+
+    .three {
+        margin-right: 0px;
+        width: 98%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+    }
+
+    .four {
+        margin-right: 10px;
+        cursor: pointer;
+    }
+
+    .five {
+        margin-right: 10px;
+        border: 1px solid white;
+        padding: 10px;
+        border-radius: 30px;
+        cursor: pointer;
+    }
+
+    .six {
+        margin-right: 10px;
+        border: 1px solid red;
+        background-color: red;
+        cursor: pointer;
+        padding: 10px 5px;
+        border-radius: 30px;
+    }
+
+    .nine2 {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        flex-wrap: wrap;
+        gap: 20px;
+        padding-top: 40px;
+        height: auto;
+    }
+
+    .nine7 {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        color: white;
+        height: 300px;
+    }
+
+    .nine8 {
+        font-weight: 300;
+        line-height: 1;
+        text-align: center;
+        font-size: 45px;
+        font-family: Playfair;
+        font-weight: 700;
+    }
+
+    .nine10 {
+        margin-top: 43px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 18px;
+        height: auto;
+    }
+
+    .nine20 {
+        margin-top: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        gap: 22px;
+        height: 1700px;
+    }
+
+    .ten {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        height: auto;
+        gap: 0px;
+        padding-bottom: 30px;
+    }
+
+    .ten4 {
+        width: 545px;
+        height: 300px;
+    }
+
+    .ten8 {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        height: 500px;
+        gap: 2px;
+        height: 800px;
+    }
+
+    .ten9 {
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        height: 500px;
+        gap: 2px;
+        height: 800px;
+    }
+
+    .eleven {
+        margin-top: 110px;
+        margin-left: 22px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        gap: 25px;
+        height: 990px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 650px) {
+    .one {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        height: auto;
+        background-color: black;
+        color: white;
+        padding: 20px 0px;
+    }
+
+    .two {
+        margin-left: 0px;
+        width: 170px;
+        height: 80px;
+        cursor: pointer;
+    }
+
+    .three {
+        margin-right: 0px;
+        width: 98%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .four {
+        margin-right: 10px;
+        cursor: pointer;
+    }
+
+    .five {
+        margin-right: 10px;
+        border: 1px solid white;
+        padding: 10px;
+        border-radius: 30px;
+        cursor: pointer;
+    }
+
+    .six {
+        margin-right: 10px;
+        border: 1px solid red;
+        background-color: red;
+        cursor: pointer;
+        padding: 10px 5px;
+        border-radius: 30px;
+    }
+
+    .nine2 {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        flex-wrap: wrap;
+        gap: 20px;
+        padding-top: 40px;
+        height: auto;
+    }
+
+    .nine7 {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        color: white;
+        height: 300px;
+    }
+
+    .nine8 {
+        font-weight: 300;
+        line-height: 1;
+        text-align: center;
+        font-size: 43px;
+        font-family: Playfair;
+        font-weight: 700;
+    }
+
+    .nine10 {
+        margin-top: 43px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 18px;
+        height: auto;
+    }
+
+    .nine20 {
+        margin-top: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        gap: 22px;
+        height: 1700px;
+    }
+
+    .ten {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        height: auto;
+        gap: 0px;
+        padding-bottom: 30px;
+    }
+
+    .ten4 {
+        width: 545px;
+        height: 300px;
+    }
+
+    .ten8 {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        height: 500px;
+        gap: 2px;
+        height: 800px;
+    }
+
+    .ten9 {
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        height: 500px;
+        gap: 2px;
+        height: 800px;
+    }
+
+    .eleven {
+        margin-top: 110px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        gap: 25px;
+        height: 1260px;
+    }
+}
+
+
+
+@media (min-width: 577px) and (max-width: 600px) {
+    .one {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        height: auto;
+        background-color: black;
+        color: white;
+        padding: 20px 0px;
+    }
+
+    .two {
+        margin-left: 0px;
+        width: 170px;
+        height: 80px;
+        cursor: pointer;
+    }
+
+    .three {
+        margin-right: 0px;
+        width: 95%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .four {
+        margin-right: 10px;
+        cursor: pointer;
+    }
+
+    .five {
+        margin-right: 10px;
+        border: 1px solid white;
+        padding: 10px;
+        border-radius: 30px;
+        cursor: pointer;
+    }
+
+    .six {
+        margin-right: 10px;
+        border: 1px solid red;
+        background-color: red;
+        cursor: pointer;
+        padding: 10px 5px;
+        border-radius: 30px;
+    }
+
+    .nine2 {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        flex-wrap: wrap;
+        gap: 20px;
+        padding-top: 40px;
+        height: auto;
+    }
+
+    .nine7 {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        color: white;
+        height: 300px;
+    }
+
+    .nine8 {
+        font-weight: 300;
+        line-height: 1;
+        text-align: center;
+        font-size: 40px;
+        font-family: Playfair;
+        font-weight: 700;
+    }
+
+    .nine10 {
+        margin-top: 43px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 18px;
+        height: auto;
+    }
+
+    .nine20 {
+        margin-top: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        gap: 22px;
+        height: 1700px;
+    }
+
+    .ten {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        height: auto;
+        gap: 0px;
+        padding-bottom: 30px;
+    }
+
+    .ten4 {
+        width: 545px;
+        height: 300px;
+    }
+
+    .ten8 {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        height: 500px;
+        gap: 2px;
+        height: 800px;
+    }
+
+    .ten9 {
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        height: 500px;
+        gap: 2px;
+        height: 800px;
+    }
+
+    .eleven {
+        margin-top: 110px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        gap: 25px;
+        height: 1260px;
+    }
+}
+
+@media (min-width: 340px) and (max-width: 576px) {
+    .one {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        height: auto;
+        background-color: black;
+        color: white;
+        padding: 20px 0px;
+    }
+
+    .two {
+        margin-left: 0px;
+        width: 170px;
+        height: 80px;
+        cursor: pointer;
+    }
+
+    .three {
+        margin-right: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        height: auto;
+    }
+
+    .four {
+        margin-right: 0px;
+        cursor: pointer;
+    }
+
+    .five {
+        margin-right: 0px;
+        border: 1px solid white;
+        padding: 10px;
+        border-radius: 30px;
+        cursor: pointer;
+    }
+
+    .six {
+        margin-right: 0px;
+        border: 1px solid red;
+        background-color: red;
+        cursor: pointer;
+        padding: 10px 5px;
+        border-radius: 30px;
+    }
+
+    .nine1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: gray;
+        height: 30px;
+        text-align: center;
+    }
+
+    .nine2 {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        flex-wrap: wrap;
+        gap: 20px;
+        padding-top: 40px;
+        height: auto;
+    }
+
+    .nine7 {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        color: white;
+        height: 300px;
+    }
+
+    .nine8 {
+        font-weight: 300;
+        line-height: 1;
+        text-align: center;
+        font-size: 32px;
+        font-family: Playfair;
+        font-weight: 700;
+    }
+
+    .nine10 {
+        margin-top: 53px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 18px;
+        height: auto;
+        text-align: center;
+    }
+
+    .nine11 {
+        height: 350px;
+        width: 370px;
+        margin-bottom: 20px;
+    }
+
+    .nine20 {
+        margin-top: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        gap: 22px;
+        height: 1700px;
+    }
+
+    .ten {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        height: auto;
+        gap: 0px;
+        padding-bottom: 30px;
+    }
+
+    .ten3 {
+        width: 325px;
+        height: 290px;
+        padding-top: 80px;
+    }
+
+    .ten4 {
+        width: 325px;
+        height: 270px;
+    }
+
+    .ten8 {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        height: 500px;
+        gap: 2px;
+        height: 800px;
+    }
+
+    .ten9 {
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        height: 500px;
+        gap: 2px;
+        height: 800px;
+    }
+
+    .eleven {
+        margin-top: 110px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 35px;
+        height: 1570px;
+        text-align: center;
+    }
+
+    .eleven1 {
+        color: gray;
+        width: 400px;
+        height: 400px;
+        text-align: center;
+    }
+
+    .eleven2 {
+        width: 400px;
+        height: 400px;
+        text-align: center;
+    }
+
+    .eleven3 {
+        width: 400px;
+        height: 500px;
+        text-align: center;
+    }
+
+    .eleven4 {
+        width: 400px;
+        height: 400px;
+        text-align: center;
+    }
+
+    .zero {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .twelve5 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 40px;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 14px;
+        color: white;
+        font-weight: 600;
+    }
+}
+
+@media (min-width: 476px) and (max-width: 550px) {
+    .eleven {
+        margin-top: 110px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 25px;
+        height: 1570px;
+    }
+
+    .eleven1 {
+        color: gray;
+        width: 370px;
+        height: 400px;
+        text-align: center;
+    }
+
+    .eleven2 {
+        width: 370px;
+        height: 400px;
+        text-align: center;
+    }
+
+    .eleven3 {
+        width: 370px;
+        height: 500px;
+        text-align: center;
+    }
+
+    .eleven4 {
+        width: 370px;
+        height: 400px;
+        text-align: center;
+    }
+}
+
+@media (min-width: 421px) and (max-width: 475px) {
+    .eleven {
+        margin-top: 110px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 25px;
+        height: 1570px;
+    }
+
+    .eleven1 {
+        color: gray;
+        width: 300px;
+        height: 400px;
+        text-align: center;
+    }
+
+    .eleven2 {
+        width: 300px;
+        height: 400px;
+        text-align: center;
+    }
+
+    .eleven3 {
+        width: 300px;
+        height: 500px;
+        text-align: center;
+    }
+
+    .eleven4 {
+        width: 300px;
+        height: 400px;
+        text-align: center;
+    }
+}
+
+@media (min-width: 376px) and (max-width: 420px) {
+    .eleven {
+        margin-top: 110px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 25px;
+        height: 1570px;
+    }
+
+    .eleven1 {
+        color: gray;
+        width: 270px;
+        height: 400px;
+        text-align: center;
+    }
+
+    .eleven2 {
+        width: 270px;
+        height: 400px;
+        text-align: center;
+    }
+
+    .eleven3 {
+        width: 270px;
+        height: 500px;
+        text-align: center;
+    }
+
+    .eleven4 {
+        width: 270px;
+        height: 400px;
+        text-align: center;
+    }
+}
+
+@media (min-width: 340px) and (max-width: 375px) {
+    .eleven {
+        margin-top: 110px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 25px;
+        height: 1570px;
+    }
+
+    .eleven1 {
+        color: gray;
+        width: 250px;
+        height: 400px;
+        text-align: center;
+    }
+
+    .eleven2 {
+        width: 250px;
+        height: 400px;
+        text-align: center;
+    }
+
+    .eleven3 {
+        width: 250px;
+        height: 500px;
+        text-align: center;
+    }
+
+    .eleven4 {
+        width: 250px;
+        height: 400px;
+        text-align: center;
+    }
+}
